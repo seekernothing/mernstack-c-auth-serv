@@ -1,0 +1,20 @@
+{
+  "name": "auth-service",
+  "version": "1.0.0",
+  "description": "user management service",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seekernothing/mernstack-c-auth-serv.git"
+  },
+  "author": "Abhishek Biradar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seekernothing/mernstack-c-auth-serv/issues"
+  },
+  "homepage": "https://github.com/seekernothing/mernstack-c-auth-serv#readme"
+}
