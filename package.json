@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/seekernothing/mernstack-c-auth-serv/issues"
   },
-  "homepage": "https://github.com/seekernothing/mernstack-c-auth-serv#readme"
+  "homepage": "https://github.com/seekernothing/mernstack-c-auth-serv#readme",
+  "devDependencies": {
+    "@types/node": "^22.13.9",
+    "typescript": "^5.8.2"
+  }
 }
