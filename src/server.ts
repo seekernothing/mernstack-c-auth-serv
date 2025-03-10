@@ -1,5 +1,3 @@
-function WelcomeMsg(name: string) {
-    console.log(`Welcome ${name}`);
-}
+import { Config } from "./config";
 
-WelcomeMsg("Abhishek");
+console.log(Config.PORT);
