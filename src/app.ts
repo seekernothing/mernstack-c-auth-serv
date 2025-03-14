@@ -1,13 +1,15 @@
 // import express, { NextFunction } from "express";
-import logger from "./logger";
+import logger from "./config/logger";
 import { HttpError } from "http-errors";
 import express, { Request, Response, NextFunction } from "express";
-
+import authRouter from "./routes/auth";
 const app = express();
 
 app.get("/", (req, res) => {
     res.send("Welcome to auth service");
 });
+
+app.use("/auth", authRouter);
 
 // global error handler.(This is a global Middleware  )
 
